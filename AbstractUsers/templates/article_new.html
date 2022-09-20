@@ -12,6 +12,7 @@
   <form method="post">
     {% csrf_token %}
     {{ form|crispy }}
+    <button class="btn btn-successful" type="submit">Готово</button>
   </form>
   {% endblock %}
 </body>
